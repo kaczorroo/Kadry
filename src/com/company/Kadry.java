@@ -28,31 +28,38 @@ public class Kadry {
     }
 
     private void dodajPracownikaInteraktywnie() {
-        //nie wiem jak to zrobic -.-
+        //kod
     }
 
     public void importujZPlikuTekstowego() {
-        //nie wiem tez
+        //kod
     }
 
-    protected double sredniZarobek () {
-        // brak pomyslu
-        return 0;
+    protected double sredniZarobek() {
+        double sumaZarobkow;
+        sumaZarobkow = 0;
+        for (int i = 0; i < zatrudnienie_; i++)
+            sumaZarobkow = pracownicy_[i].getPlaca() + sumaZarobkow;
+        double sredniZarobek = sumaZarobkow / zatrudnienie_;
+
+        return sredniZarobek;
     }
 
     protected double sredniZarobek(int dzial) {
-        // brak pomyslu
+        // kod
         return 0;
     }
 
-    protected int[] dajDzialy(){
+    protected int[] dajDzialy() {
         //kod
         return new int[0];
     }
-    public void zapiszDoPliku(){
+
+    public void zapiszDoPliku() {
         //kod
     }
-    public void odczytajZPliku(){
+
+    public void odczytajZPliku() {
         //kod
     }
 

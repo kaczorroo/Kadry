@@ -18,10 +18,11 @@ public class Pracownik {
         this.dzial = dzial;
     }
 
-    public double getPlaca(){
+    public double getPlaca() {
         return placa;
     }
-    public int dzial(){
+
+    public int getDzial() {
         return dzial;
     }
 
