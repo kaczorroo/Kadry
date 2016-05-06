@@ -18,6 +18,13 @@ public class Pracownik {
         this.dzial = dzial;
     }
 
+    public double getPlaca(){
+        return placa;
+    }
+    public int dzial(){
+        return dzial;
+    }
+
     @Override
     public String toString() {
         return "Pracownik{" +

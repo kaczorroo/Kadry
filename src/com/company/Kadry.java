@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 /**
  * Created by user on 2016-05-04.
  */
@@ -54,4 +56,10 @@ public class Kadry {
         //kod
     }
 
+    @Override
+    public String toString() {
+        return "Kadry{" +
+                "pracownicy_=" + Arrays.toString(pracownicy_) +
+                '}';
+    }
 }
